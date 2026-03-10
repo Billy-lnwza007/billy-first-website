@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bb</title>
+</head>
+<body>
+    <form action="action_page.php" method="post">
+        <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="sebastian">
+        </div>
+        <br>
+        <div>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" required placeholder="vettel">
+        </div>
+        <br>
+        <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="XXXX8888@gmail.com">
+        </div>
+        <br>
+        <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" maxlength="18" required placeholder="123456789">
+        </div>
+        <br>
+        <label for="bdate">Birth Date:</label>
+        <input type="date" id="bdate" name="bdate">
+
+        <br>
+        <div>
+        <label>
+            <input type="radio" id="male" name="gender" value="male">
+            Male
+        </label>
+        <label>
+            <input type="radio" id="female" name="gender" value="female">
+            Female
+        </label>
+        <label>
+            <input type="radio" id="other" name="gender" value="other">
+            Other
+        </label>
+        </div>
+        
+        <div>
+        <label for="payment">Payment Method:</label>
+        <select id="payment" name="payment">
+            <option value="credit">Credit Card</option>
+            <option value="debit">Debit Card</option>
+            <option value="paypal">PayPal</option>
+            <option value="mobile billing">Mobile Billing</option>
+            <option value="gift card">Gift Card</option>
+        </select>
+        </div>
+    <h1>Check this if you are a lnwza user</h1>
+        <label>
+            <input type="checkbox" id="lnwza" name="lnwza" value="yes">
+            I am a lnwza user
+        </label>
+        <br>
+        <div>
+        <button type="reset">Reset</button>
+        <br>
+        
+        <button type="submit">Submit</button>
+        </div>
+        
+    
+    </form>
+</body>
+</html>
